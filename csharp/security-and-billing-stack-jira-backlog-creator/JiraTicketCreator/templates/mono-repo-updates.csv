@@ -1,0 +1,5 @@
+Summary,Description
+"Terraform Mono-Repo Implementation","Be sure to reference the relevant upstream integration details located at [arc-docs](https://sourcefuse.github.io/arc-docs/):
+* [Security](https://sourcefuse.github.io/arc-docs/arc-iac-docs/modules/terraform-aws-arc-security/docs/module-usage-guide/#integration-with-existing-terraform-configurations)
+* [Billing](https://sourcefuse.github.io/arc-docs/arc-iac-docs/modules/terraform-aws-arc-billing/docs/module-usage-guide/#integration-with-existing-terraform-configurations)
+"

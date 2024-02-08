@@ -47,7 +47,8 @@ namespace JiraTicketCreator
         if (Directory.Exists(item))
         {
           string epicName = Path.GetFileName(item);
-          string newEpicKey = await CreateEpicAsync(epicName);
+          string epicDescription = GetEpicDescription(Path.Combine(item, "description.txt"));
+          string newEpicKey = await CreateEpicAsync(epicName, epicDescription);
           if (newEpicKey != null)
           {
             await CreateTicketsAsync(item, newEpicKey); // Recursively process nested folders
@@ -70,7 +71,20 @@ namespace JiraTicketCreator
       }
     }
 
-    static async Task<string> CreateEpicAsync(string epicName)
+    static string GetEpicDescription(string descriptionFilePath)
+    {
+      if (File.Exists(descriptionFilePath))
+      {
+        return File.ReadAllText(descriptionFilePath);
+      }
+      else
+      {
+        // Return a default description if the file is not found
+        return "Content to follow...";
+      }
+    }
+
+    static async Task<string> CreateEpicAsync(string epicName, string description)
     {
       var epic = new
       {
@@ -78,6 +92,7 @@ namespace JiraTicketCreator
         {
           project = new { key = jiraProjectKey },
           summary = epicName,
+          description = description,
           issuetype = new { name = "Epic" }  // Change this to the appropriate issue type
         }
       };

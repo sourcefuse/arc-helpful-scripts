@@ -1,0 +1,7 @@
+ARC Module: Security
+Repo URL: https://github.com/sourcefuse/terraform-aws-arc-security
+Enables:
+* SecurityHub
+* GuardDuty
+* Inspector
+* AWS Config

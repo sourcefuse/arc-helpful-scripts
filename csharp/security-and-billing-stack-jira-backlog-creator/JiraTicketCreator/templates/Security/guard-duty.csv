@@ -1,0 +1,9 @@
+Summary,Description
+"Add GuardDuty integration","WHAT:
+* Be sure to complete research on module usage
+* Deploy security hub stack to the production account with all features enabled
+
+DONE WHEN:
+* You use the latest supported module, found in the [Terraform Registry](https://registry.terraform.io/modules/sourcefuse/arc-security/aws/latest).
+* You have deployed with the latest features enabled (per requirements)
+"
