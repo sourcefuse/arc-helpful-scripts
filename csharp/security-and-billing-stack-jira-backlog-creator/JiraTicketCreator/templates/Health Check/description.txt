@@ -1,0 +1,4 @@
+ARC Module: Health Check
+Repo URL: https://github.com/sourcefuse/terraform-aws-arc-healthcheck
+Enables:
+* An AWS Route 53 health check and an associated CloudWatch alarm
