@@ -1,0 +1,8 @@
+Summary,Description
+"Budget alert implementation","WHAT:
+1. Creates Budget alerts for the account(s)
+  * EC2 monthly cost
+  * RDS or group of other services monthly cost
+  * Total Monthly cost
+2. Integrate alarms with Slack and Opsgenie.
+"

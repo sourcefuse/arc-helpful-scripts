@@ -1,0 +1,10 @@
+Summary,Description
+"Research: Billing alerts integration","Be sure to review all documentation for the billing module prior to implementation.
+WHAT:
+* [README](https://sourcefuse.github.io/arc-docs/arc-iac-docs/modules/terraform-aws-arc-billing/)
+* [Module usage guide](https://sourcefuse.github.io/arc-docs/arc-iac-docs/modules/terraform-aws-arc-billing/docs/module-usage-guide/)
+
+DONE WHEN:
+* You understand how to implement the ARC Billing module
+* Alerts are in place for billing
+"

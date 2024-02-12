@@ -1,5 +1,6 @@
 ARC Module: Security
 Repo URL: https://github.com/sourcefuse/terraform-aws-arc-security
+Additional Documentation for the child stories can be found: https://sourcefuse.atlassian.net/wiki/spaces/SOURCEFUSE/pages/3834970699/Security+and+Compliance+Integration+Guide+with+ARC
 Enables:
 * SecurityHub
 * GuardDuty

@@ -1,0 +1,10 @@
+Summary,Description
+"Research: Health check integration","Be sure to review all documentation for the health check module prior to implementation.
+WHAT:
+* [README](https://sourcefuse.github.io/arc-docs/arc-iac-docs/modules/terraform-aws-arc-healthcheck/)
+* [Module usage guide](https://sourcefuse.github.io/arc-docs/arc-iac-docs/modules/terraform-aws-arc-healthcheck/docs/module-usage-guide/)
+
+DONE WHEN:
+* You understand how to implement the ARC Health Check module
+* Understand how to implement health checks with Route 53
+"
