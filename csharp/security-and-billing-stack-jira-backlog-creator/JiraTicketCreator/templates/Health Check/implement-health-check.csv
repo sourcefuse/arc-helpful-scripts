@@ -1,0 +1,7 @@
+Summary,Description
+"Health Check implementation","WHAT:
+1. Monitor https endpoints
+  * Determine health based on returned status code
+  * Verify response body has a specific string (if applicable)
+2. Alarms are integrated with Slack and Opsgenie
+"

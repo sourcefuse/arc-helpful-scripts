@@ -1,0 +1,5 @@
+ARC Module: Billing
+Repo URL: https://github.com/sourcefuse/terraform-aws-arc-billing
+Enables:
+* Creates Budget alerts
+* Enables alarm integration with Slack, Opsgenie, or other endpoints.

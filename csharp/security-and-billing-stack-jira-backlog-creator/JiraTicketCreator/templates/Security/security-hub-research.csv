@@ -1,0 +1,12 @@
+Summary,Description
+"Research: Security Hub integration","Be sure to review all documentation for the security module prior to implementation:
+WHAT:
+* [README](https://sourcefuse.github.io/arc-docs/arc-iac-docs/modules/terraform-aws-arc-security/)
+* [Module usage guide](https://sourcefuse.github.io/arc-docs/arc-iac-docs/modules/terraform-aws-arc-security/docs/module-usage-guide/)
+* Find a way to implement this ONLY in the production account and potentially monitor lower environments.
+
+DONE WHEN:
+* You understand how to implement the ARC Security module
+* Have a plan in place to only implement this in the production account.
+  * (Plus): Able to monitor lower environments without rolling Security Hub out to every account
+"
