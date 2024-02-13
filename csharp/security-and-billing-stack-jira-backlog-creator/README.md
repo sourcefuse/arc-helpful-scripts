@@ -1,5 +1,5 @@
 # Security and Billing Stack: Jira Backlog Ticket Creator
-This is intended to populate the Jira backlog with the Security and Billing stack requirements for use in multiple projects. 
+This is intended to populate the Jira backlog with the Security and Billing stack requirements for use in multiple projects.
 
 ## Overview
 ```
@@ -35,7 +35,7 @@ JiraTicketCreator/
 
 This hierarchical structure allows for organizing Epics and their associated tickets in a folder-based manner, making it easy to manage and maintain the templates for creating Jira tickets.
 
-## Getting Started 
+## Getting Started
 
 ### Install packages
   ```
@@ -63,7 +63,7 @@ Be sure the environment variables are set prior to running:
 | JIRA_API_TOKEN    | Used for authenticating to Jira                                                                  | Yes       |
 | JIRA_USERNAME     | Used for logging in to Jira                                                                      | Yes       |
 | JIRA_SERVER       | Server URL for the Jira instance                                                                 | Yes       |
-| JIRA_PROJECT_KEY  | Project key where the newly created tickets will reside                                          | Yes       | 
+| JIRA_PROJECT_KEY  | Project key where the newly created tickets will reside                                          | Yes       |
 | TEMPLATES_PATH    | Path to the templates directory where the ticket templates reside. Default value is `templates/` | No        |
 
 1. Navigate to the `bin/Release/net8.0/` directory:
